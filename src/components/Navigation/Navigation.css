@@ -1,0 +1,60 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+nav .logo-wrap img {
+  width: 120px;
+}
+nav .middle-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  width: 180px;
+}
+nav .middle-menu > button {
+  cursor: pointer;
+  height: 35px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: grey;
+  border-radius: 10px;
+  background-color: white;
+}
+nav .middle-menu > button.active {
+  background-color: #EFECFF;
+}
+nav #last-block {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+nav #last-block #share-btn {
+  border: none;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  transition: color 0.1s ease;
+}
+nav #last-block #share-btn:hover {
+  color: black;
+}
+nav #last-block a, nav #last-block button {
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 10px;
+  height: 45px;
+  border: 1px solid rgb(68, 0, 128);
+  background-color: rgb(68, 0, 128);
+  color: white;
+  border-radius: 10px;
+  transition: background-Color 0.3s;
+}
+nav #last-block a:hover, nav #last-block button:hover {
+  color: rgb(68, 0, 128);
+  background-color: white;
+}/*# sourceMappingURL=Navigation.css.map */

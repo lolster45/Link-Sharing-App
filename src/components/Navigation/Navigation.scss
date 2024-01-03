@@ -1,0 +1,69 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+
+    .logo-wrap {
+        img {
+            width: 120px;
+        }
+    }
+
+    .middle-menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 40px;
+        width: 180px;
+        //transform: translateX(50px);
+        > button {
+            cursor: pointer;
+            height: 35px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            color: grey;
+            border-radius: 10px;
+            background-color: white;
+
+            &.active {
+                background-color: #EFECFF;
+            }
+        }
+    }
+    #last-block {
+        display: flex;
+        align-items: center;
+        height: auto;
+        //background-color: blue;
+        #share-btn {
+            border: none;
+            font-size: 1.2rem;
+            margin-right: 10px;
+            transition: color 0.1s ease;
+            &:hover {
+                color: black;
+            }
+        }
+
+        a, button {
+            cursor: pointer;
+            text-decoration: none;
+            margin-left: 5px;
+            padding: 10px;
+            height: 45px;
+            border: 1px solid rgb(68, 0, 128);
+            background-color: rgb(68, 0, 128);
+            color: white;
+            border-radius: 10px;
+            transition: background-Color 0.3s ;
+            &:hover {
+                color: rgb(68, 0, 128);
+                background-color: white;
+            }
+        }
+    }
+
+}

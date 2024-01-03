@@ -1,0 +1,34 @@
+.link-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.link-btn span {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: white;
+}
+.link-btn span svg {
+  margin-right: 5px;
+}
+.link-btn svg {
+  color: white;
+}
+.link-btn.youtube {
+  background-color: #FF0000;
+}
+.link-btn.linkedin {
+  background-color: #0A66C2;
+}
+.link-btn.github {
+  background-color: black;
+}/*# sourceMappingURL=PhoneLink.css.map */

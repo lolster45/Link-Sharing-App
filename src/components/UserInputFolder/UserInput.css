@@ -1,0 +1,132 @@
+.single-user-input-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: var(--single-block-bg-color);
+}
+.single-user-input-block .intro-input-block {
+  display: flex;
+  justify-content: space-between;
+}
+.single-user-input-block .intro-input-block h2 {
+  color: rgb(94, 94, 94);
+}
+.single-user-input-block .intro-input-block span {
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(158, 158, 158);
+}
+.single-user-input-block .intro-input-block span:hover {
+  color: rgb(77, 0, 128);
+}
+.single-user-input-block #first-label {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.single-user-input-block #first-label .dropdown-wrap {
+  position: relative;
+  margin-top: 5px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 179, 179);
+}
+.single-user-input-block #first-label .dropdown-wrap .fake-dropdown {
+  z-index: 5;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+  font-size: 1rem;
+  background-color: white;
+}
+.single-user-input-block #first-label .dropdown-wrap .fake-dropdown > div > svg {
+  margin-right: 10px;
+}
+.single-user-input-block #first-label .dropdown-wrap .fake-dropdown > svg {
+  color: rgb(108, 5, 163);
+}
+.single-user-input-block #first-label .dropdown-wrap .real-dropdown {
+  position: relative;
+  z-index: 0;
+  opacity: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 0px;
+  overflow-y: hidden;
+  width: 100%;
+  background-color: white;
+  transition: height 0.3s ease;
+  transform: translateY(0.5px);
+}
+.single-user-input-block #first-label .dropdown-wrap .real-dropdown > div {
+  cursor: pointer;
+  padding-left: 10px;
+  padding: 7px;
+  padding-left: 10px;
+  width: 100%;
+  font-size: 0.8rem;
+}
+.single-user-input-block #first-label .dropdown-wrap .real-dropdown > div:hover {
+  background-color: rgb(243, 243, 243);
+}
+.single-user-input-block #first-label .dropdown-wrap .real-dropdown.active {
+  height: 88px;
+  overflow: none;
+  z-index: 5;
+  opacity: 1;
+}
+.single-user-input-block #second-label {
+  width: 100%;
+  margin-top: 10px;
+}
+.single-user-input-block #second-label .user-link-input {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+  height: 40px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 179, 179);
+}
+.single-user-input-block #second-label .user-link-input > svg {
+  margin-right: 10px;
+}
+.single-user-input-block #second-label .user-link-input span {
+  color: rgb(132, 131, 131);
+}
+.single-user-input-block #second-label .user-link-input input {
+  border: none;
+  outline: none;
+  color: black;
+  height: 70%;
+}
+.single-user-input-block #second-label .user-link-input input::-moz-placeholder {
+  color: black;
+}
+.single-user-input-block #second-label .user-link-input input::placeholder {
+  color: black;
+}
+.single-user-input-block #second-label .user-link-input input:focus::-moz-placeholder {
+  color: transparent;
+}
+.single-user-input-block #second-label .user-link-input input:focus::placeholder {
+  color: transparent;
+}/*# sourceMappingURL=UserInput.css.map */

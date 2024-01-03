@@ -1,0 +1,48 @@
+.linktree-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 130px;
+  text-align: center;
+  color: white;
+  background-color: #141414;
+}
+.linktree-bg > nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(34, 34, 34);
+}
+.linktree-bg > nav a {
+  height: 30px;
+  text-decoration: none;
+  color: white;
+}
+.linktree-bg > nav > button {
+  cursor: pointer;
+  height: 30px;
+  width: 80px;
+  border: none;
+  color: black;
+  background-color: white;
+}
+.linktree-bg img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.linktree-bg h3 {
+  margin-bottom: 10px;
+}
+.linktree-bg p {
+  margin-bottom: 20px;
+}
+.linktree-bg a {
+  height: 50px;
+  font-size: 1.3rem;
+}/*# sourceMappingURL=UserLinkTree.css.map */

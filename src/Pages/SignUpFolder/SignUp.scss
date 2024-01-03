@@ -1,0 +1,88 @@
+#sign-up-bg {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 43, 225);
+
+    form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 500px;
+        padding: 20px 20px 60px 20px;
+        border-radius: 10px;
+        background-color: white;
+        #back-btn {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            font-size: 2rem;
+            color: black;
+            transition: color 0.2s ease;
+            &:hover {
+                color: rgb(136, 23, 185);
+            }
+        }
+        h2 {
+            width: 100%;
+            text-align: center;
+            color: black;
+            background-color: white;
+            font-size: 2.7rem;
+        }
+
+        // label {
+        //     display: flex;
+        //     flex-direction: column;
+        //     height: 70px;
+        //     width: 95%;
+        //     font-weight: bold;
+        //     margin-top: 40px;
+        //     input {
+        //         margin-top: 10px;
+        //         height: 100%;
+        //         width: 100%;
+        //         border: none;
+        //         outline: none;
+        //         padding-left: 15px;
+        //         color: rgb(107, 43, 226);
+        //         border-bottom: 1px solid black;
+        //         &:focus::placeholder {
+        //             color: transparent;
+        //         }
+                
+        //     }
+        // }
+        >p {
+            margin-top: 20px;
+        }
+        button {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+            width: 70%;
+            border: none;
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: rgb(245, 245, 245);
+            transition: background-color 0.1s ease-in;
+            &:hover {
+                background-color: rgb(235, 235, 235);
+            }
+            svg {
+                font-size: 1.3rem;
+                margin-right: 5px;
+            }
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}

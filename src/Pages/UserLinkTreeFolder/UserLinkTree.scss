@@ -1,0 +1,50 @@
+.linktree-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 130px;
+    text-align: center;
+    color: white;
+    background-color: #141414;
+
+    >nav {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        background-color: rgb(34, 34, 34);
+        a {
+            height: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        >button {
+            cursor: pointer;
+            height: 30px;
+            width: 80px;
+            border: none;
+            color: black;
+            background-color: white;
+        }
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+    }
+    h3 {
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    a {
+        height: 50px;
+        font-size: 1.3rem;
+    }
+}

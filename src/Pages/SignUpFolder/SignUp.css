@@ -1,0 +1,64 @@
+#sign-up-bg {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(134, 43, 225);
+}
+#sign-up-bg form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 500px;
+  padding: 20px 20px 60px 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+#sign-up-bg form #back-btn {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 2rem;
+  color: black;
+  transition: color 0.2s ease;
+}
+#sign-up-bg form #back-btn:hover {
+  color: rgb(136, 23, 185);
+}
+#sign-up-bg form h2 {
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: 2.7rem;
+}
+#sign-up-bg form > p {
+  margin-top: 20px;
+}
+#sign-up-bg form button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(245, 245, 245);
+  transition: background-color 0.1s ease-in;
+}
+#sign-up-bg form button:hover {
+  background-color: rgb(235, 235, 235);
+}
+#sign-up-bg form button svg {
+  font-size: 1.3rem;
+  margin-right: 5px;
+}
+#sign-up-bg form button span {
+  font-weight: bold;
+}/*# sourceMappingURL=SignUp.css.map */
